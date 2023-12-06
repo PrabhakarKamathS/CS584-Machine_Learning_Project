@@ -1,1 +1,7 @@
 # CS584-Machine_Learning_Project
+
+Federated Learning is a transformative paradigm in machine learning, addressing challenges related to decentralized data, scalability, and privacy. The focus on user privacy, decentralized data sources, and collaborative learning across industries highlights its significance. As technology evolves, Federated Learning reshapes machine learning towards a decentralized and privacy-conscious future.
+
+In this context, the aggregation of client model gradients by the server in Federated Learning's parameter servers is crucial, showing variations in techniques. Fairness is essential to prevent biased outcomes, ensuring equitable representation and treatment of diverse user populations. This project aims to identify an optimal federated learning technique, specifically focusing on fairness and robustness.To align with real-world Federated Learning scenarios where privacy is highly valued, we incorporate differential privacy.
+
+The project specifically examines the effects of gradient averaging techniques, such as FedAvg and Q-FedAvg, on the accuracy, wall-clock time, and fairness of a Convolutional Neural Network. Initially, the investigation focuses on the FEMNIST dataset, characterized by distinct heterogeneous users, to identify the optimal gradient averaging scheme. Additionally, the fairness of the chosen gradient averaging scheme is explored using the UCI Adult dataset , with a specific focus on fairness constraints such as Demographic Parity and Accuracy Parity.
